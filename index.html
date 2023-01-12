@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/scripts.css" type="text/css">
+    <script src="/js/script.js"></script>
+    <title>Charcater Builder</title>
+</head>
+<body>
+    <h1>Build your character</h1>
+    <form id="whole-form">
+        <form>
+            <label class="charName">
+                Create character name:
+                <input type="text" name="nameInput" id="userName">
+                <br>
+            </label>
+            <label class="height">
+        </form>
+        <form id="select-form">
+            Choose character height
+            <select id="height">
+                <option value="6">6 ft</option>
+                <option value="5">5 ft</option>
+                <option value="4">4 ft</option>
+            </select>
+        </form>
+        <form id="radio-form">
+            <label>
+                <input type="radio" name="class" value="mage" checked>
+                Mage
+            </label><br>            
+            <label>
+                <input type="radio" name="class" value="knight" checked>
+                Knight
+            </label><br>            
+            <label>
+                <input type="radio" name="class" value="rogue" checked>
+                Rogue
+            </label><br>
+        </form>
+        <button type="submit">Create your character</button>
+    </form>
+    <p>
+        Elf knight <br>
+        Elf Rogue <br>
+        Elf mage <br>
+    </p>
+
+</body>
+</html>
