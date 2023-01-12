@@ -7,9 +7,12 @@ function runAll(event) {
     handleCharName();
     handleSelectCharHeight();
     handleClassSelection();
+    printResult();
 }
 
     function handleCharName() {
+        const charName = document.getElementById("userName").value;
+        return charName;
     }
 
     function handleSelectCharHeight() {
@@ -36,9 +39,14 @@ function runAll(event) {
             className = "Rogue"
         }
         return className;
-
     }
+    
 
+    function printResult(){
+      const finalResults = document.getElementById("results");
+      finalResults.innerHTML=('Your character is:' + handleCharName() + " the " + handleSelectCharHeight() + " " + handleClassSelection());
+      return finalResults
+    }
 
 window.addEventListener("load", function() {
     document.getElementById("whole-form").addEventListener("submit", runAll);
