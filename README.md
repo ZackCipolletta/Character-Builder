@@ -13,6 +13,7 @@
 ## Description
 
 A website that takes user input to build a character based on 3 parameters using various types of input fields.
+Simply enter in a value for each of the three sides of the triangle.
 
 ## Setup/Installation Requirements
 
