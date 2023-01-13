@@ -21,9 +21,9 @@ A website that takes user input to build a character based on 3 parameters using
 * open Portfolio-webpage/index.html in your browser.
 
 ## Known Bugs
- * At this time I would like to update the skills section to be centered and automatically float as the page is resized.  I would also like to find a better background image and color scheme to make the page more user friendly and aesthetically pleasing.
+ * No known bugs at this time.
 
 ## License
 MIT
 
-Copyright (c) 1/6/2023 Zachary Cipolletta
+Copyright (c) 1/12/2023 Zachary Cipolletta & Stephan Zookerman
